@@ -7,8 +7,15 @@ export default function Button({ title, onClick, full = false }) {
     classNames = `${classNames} w-full`
   }
   return (
+    <button onClick={onClick} className={classNames}>
+      <div>
+        {title}
+      </div>
+    </button>
+    
+    </br>
     <button onClick="window.location.href='https://w3docs.com';" className={classNames}>
-   <Link href="/blog/hello-world">    
+  
   <div>
         WHATSSAPP 
       </div>
