@@ -50,7 +50,7 @@ const ItemView = (props) => {
           <h1 className="
            sm:mt-0 mt-2 text-5xl font-light leading-large
           ">{name}</h1>
-          <h2 className="text-2xl tracking-wide sm:py-8 py-6">${price}</h2>
+          <h2 className="text-2xl tracking-wide sm:py-8 py-6">Rp {price}</h2>
           <p className="text-gray-600 leading-7">{description}</p>
           <div className="my-6">
             <QuantityPicker
@@ -68,7 +68,7 @@ const ItemView = (props) => {
           
           
     </br>
-    <button onClick="window.location.href='https://w3docs.com';" className={classNames}>
+    <button onClick="window.location.href='https://wa.me';" className={classNames}>
   
       <div>
             WHATSSAPP 
