@@ -37,9 +37,9 @@ const Cart = ({ context }) => {
       <CartLink />
       <div className="flex flex-col items-center pb-10">
         <Head>
-          <title>Jamstack ECommerce - Cart</title>
-          <meta name="description" content={`Jamstack ECommerce - Shopping cart`} />
-          <meta property="og:title" content="Jamstack ECommerce - Cart" key="title" />
+          <title>Nyimas - Toko Online - Cart</title>
+          <meta name="description" content={`Nyimas - Toko Online - Shopping cart`} />
+          <meta property="og:title" content="Nyimas - Toko Online  - Cart" key="title" />
         </Head>
         <div className="
           flex flex-col w-full
