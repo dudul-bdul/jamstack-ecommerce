@@ -64,6 +64,21 @@ const ItemView = (props) => {
             title="Add to Cart"
             onClick={() => addItemToCart(product)}
           />
+          
+          
+          
+    </br>
+    <button onClick="window.location.href='https://w3docs.com';" className={classNames}>
+  
+      <div>
+            WHATSSAPP 
+          </div>
+    </link>
+        </button>
+
+
+
+
         </div>
       </div>
     </>
