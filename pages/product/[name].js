@@ -34,7 +34,7 @@ const ItemView = (props) => {
       <Head>
         <title>Toko NyiMas - {name}</title>
         <meta name="description" content={description} />
-        <meta property="og:title" content={`Healty First - ${name}`} key="title" />
+        <meta property="og:title" content={`Toko NyiMas - ${name}`} key="title" />
       </Head>
       <div className="
         sm:py-12
@@ -67,18 +67,6 @@ const ItemView = (props) => {
           
           
           
-    </br>
-    <button onClick="window.location.href='https://wa.me';" className={classNames}>
-  
-      <div>
-            WHATSSAPP 
-          </div>
-    </link>
-        </button>
-
-
-
-
         </div>
       </div>
     </>
