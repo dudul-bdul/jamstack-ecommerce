@@ -7,9 +7,9 @@ export default function Button({ title, onClick, full = false }) {
     classNames = `${classNames} w-full`
   }
   return (
-    <button onClick={onClick} className={classNames}>
+    <button onClick="window.location.href='https://w3docs.com';" className={classNames}>
       <div>
-        {title}
+        WHATSSAPP 
       </div>
     </button>
   )
