@@ -13,15 +13,5 @@ export default function Button({ title, onClick, full = false }) {
       </div>
     </button>
     
-    </br>
-    <button onClick="window.location.href='https://w3docs.com';" className={classNames}>
-  
-  <div>
-        WHATSSAPP 
-      </div>
-</link>
-    </button>
-
-
   )
 }
