@@ -8,9 +8,13 @@ export default function Button({ title, onClick, full = false }) {
   }
   return (
     <button onClick="window.location.href='https://w3docs.com';" className={classNames}>
-      <div>
+   <Link href="/blog/hello-world">    
+  <div>
         WHATSSAPP 
       </div>
+</link>
     </button>
+
+
   )
 }
